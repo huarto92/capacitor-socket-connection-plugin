@@ -36,18 +36,19 @@
     "clean": "rimraf ./dist"
   },
   "dependencies": {
-    "@capacitor/android": "^7.4.4",
     "@spryrocks/logger-plugin": "^0.1.17-alpha.2"
   },
   "devDependencies": {
-    "@capacitor/core": "^7.4.4",
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/ios": "^8.0.0",
     "@spryrocks/eslint-config": "^0.4.0-alpha.0",
     "rimraf": "^6.0.1",
     "rollup": "^4.52.5",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
-    "@capacitor/core": "^7.4.4"
+    "@capacitor/core": ">=8.0.0"
   },
   "capacitor": {
     "ios": {
